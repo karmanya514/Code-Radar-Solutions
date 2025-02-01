@@ -4,7 +4,7 @@
 
 int main() {
    int x;
-   scanf("%d",x);
+   scanf("%d",&x);
    if(x%3==0 && x%5==0 ){
     printf("Divisible by Both");
    }
@@ -17,7 +17,7 @@ int main() {
 
    }
    else{
-    printf("Not Divisble")
+    printf("Not Divisble");
    }
     return 0;
 }
