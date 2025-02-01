@@ -7,5 +7,8 @@ int main() {
     if(x*x==y*y+z*z){
         printf("Valid");
     }
+    else{
+        printf("Invalid");
+    }
     return 0;
 }
