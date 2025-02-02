@@ -8,10 +8,10 @@ int main() {
     if(x>y){
         printf("First");
     }
-    if(x<y0){
+     else if(x<y0){
         printf("Second");
     }
-    if(x==y){
+    else{
         printf("Equal");
     }
     return 0;
