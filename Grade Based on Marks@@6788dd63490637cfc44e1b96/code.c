@@ -21,5 +21,8 @@ int main() {
   else if(x<60){
     printf("F");
   }
+  else{
+    printf("invalid")
+  }
     return 0;
 }
