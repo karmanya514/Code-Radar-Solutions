@@ -18,7 +18,7 @@ int main() {
     printf("D");
 
   }
-  else{
+  else if(x<60){
     printf("F");
   }
     return 0;
