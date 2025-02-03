@@ -22,8 +22,13 @@ int main() {
             printf("%d",c);
             break;
         case '/':
+            if (a>=0 && b>=0)
+            {
             c=a/b;
             printf("%d",c);
+            }
+            else
+                printf("error");
             break;
        
         
