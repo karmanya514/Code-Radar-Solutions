@@ -10,22 +10,21 @@ int main() {
     {
         case '+':
             c=a+b;
-            printf("%d",&c);
+            printf("%d",c);
             break;
         case '-':
             c=a-b;
-            printf("%d",&c);
+            printf("%d",c);
             break;
         case '*':
             c=a*b;
-            printf("%d",&c);
+            printf("%d",c);
             break;
         case '/':
             c=a/b;
-            printf("%d",&c);
+            printf("%d",c);
             break;
-        default
-            printf("Invalid choice");
+        
 
 
     }
