@@ -22,7 +22,7 @@ int main() {
             printf("%d",c);
             break;
         case '/':
-            if (b>0)
+            if (a>0 && b>0)
             {
             c=a/b;
             printf("%d",c);
