@@ -2,7 +2,7 @@
 
 
 int main() {
-    char c:
+    char c;
     scanf("%c",&c);
     if(c=='R'){
         printf("Stop");
