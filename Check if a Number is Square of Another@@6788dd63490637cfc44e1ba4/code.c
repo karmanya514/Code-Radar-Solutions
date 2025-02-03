@@ -8,7 +8,7 @@ int main() {
     if(x*x==y){
         printf("Yes");
     }else{
-        printf("No")
+        printf("No");
     }
     return 0;
 }
