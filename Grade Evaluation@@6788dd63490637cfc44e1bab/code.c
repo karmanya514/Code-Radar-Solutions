@@ -12,7 +12,7 @@ int main() {
         printf("Good");
     }
     else if(c=='C'){
-        printf( "verage");
+        printf( "Average");
     }
     else if(c=='D'){
         printf("Below Average");
