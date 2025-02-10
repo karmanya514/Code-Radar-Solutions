@@ -2,7 +2,7 @@
 int main() {
     int num, n;
     scanf("%d %d", &num, &n);
-    num = num & ~(1 << n);
-    printf("%d\n", num);
+    int bit = (num >> n) & 1;
+    printf("%d\n", bit);
     return 0;
 }
